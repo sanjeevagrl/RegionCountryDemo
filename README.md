@@ -1,11 +1,11 @@
 # Region Country Application
 
-This Application is to help people to get the country detail of that region e.g population,currency, Flag
+This Application is to help people to get the country details of that region e.g population, currency, Flag etc. There are two regions available in this application - Europe and Asia. Depending on the selected region, the country list is populated with the countries in that region. The user then has the option to select the preferred country and then view the details of that country.
 
 ## Architecture
 
-This application is on angular based application which uses two Api's to get the country list of that region
-this uses state management so that it not required to hit the api again and again that help user to get the faster result.
+This application is built using angular framework which uses two Api's to get the country list of that region. 
+This uses state management so that it does not require to hit the api again and again which helps the user to get the faster results.
 
 ## Development server
 
