@@ -2,6 +2,11 @@
 
 This Application is to help people to get the country detail of that region e.g population,currency, Flag
 
+## Architecture
+
+This application is on angular based application which uses two Api's to get the country list of that region
+this uses state management so that it not required to hit the api again and again that help user to get the faster result.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
