@@ -1,6 +1,6 @@
-# RegionCountry
+# Region Country Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+This Application is to help people to get the country detail of that region e.g population,currency, Flag
 
 ## Development server
 
