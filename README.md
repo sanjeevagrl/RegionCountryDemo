@@ -7,9 +7,14 @@ This Application is to help people to get the country details of that region e.g
 This application is built using angular framework which uses two Api's to get the country list of that region. 
 This uses state management so that it does not require to hit the api again and again which helps the user to get the faster results.
 
-## Development server
+## Installation instructions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` and then `ng serve` for installing on a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Additional features that could be implemented if time permits
+
+-> Much better content projection for the resuable component
+-> Additional scope to re-factor state management
 
 ## Code scaffolding
 
