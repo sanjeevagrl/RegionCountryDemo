@@ -1,0 +1,8 @@
+<app-select [options]="regionList" displayLabel="Region" (selectionChange)="onSelectRegion($event)"></app-select>
+<app-select [disabled]="!selectRegion" [options]="countryNameList" displayLabel="Country" (selectionChange)="onSelectCountry($event)"></app-select>
+<button (click)="loadCountry()" type="submit">Country Load</button>
+<ng-container *ngIf="selectedCountry && selectedCountrDetail.length>0 ">
+    <app-selectedcountrydetail [country]="selectedCountrDetail" ></app-selectedcountrydetail>
+</ng-container>
+
+

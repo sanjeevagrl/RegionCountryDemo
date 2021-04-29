@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+.table{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td .table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.table tr:hover{
+    background-color: #ddd;
+
+}
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: blueviolet;
+    color: white;
+}
+img{
+    width: 42px;
+    padding-top: 10px;
+}

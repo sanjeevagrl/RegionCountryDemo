@@ -1,0 +1,37 @@
+.select{
+    padding: 8px 12px;
+    color: #333333;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 300px;
+}
+.select:focus,
+.select:hover{
+    outline: none;
+    border: 2px solid #bbbbbb;
+
+}
+.container1{
+    max-width: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+.select-box1{
+    width: 300px;
+}
+.select-box select1{
+    height: 22px;
+    padding: 10px 15px;
+    line-height: 18px;
+    font-size: 16px;
+    width: 100%;
+    appearance: none;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.select-box1 after{
+    height: 22px;
+    padding: 10px 15px;
+}

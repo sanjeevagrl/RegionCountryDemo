@@ -1,0 +1,27 @@
+
+<h1>Selected Country Details</h1>
+<hr>
+<table id="country" class="table">
+    <tr>
+        <th >Name</th>
+        <th >Capital</th>
+        <th >Population</th>
+        <th >Currency</th>
+        <th >Flag</th>
+    </tr>
+    <tr *ngFor="let row of country">
+        <td >{{row['name']}}</td>
+        <td >{{row['capital']}}</td>
+        <td >{{row['population']}}</td>
+        <td >
+             <ul *ngFor ="let cur of row['currencies']">
+                <span>
+                        {{cur.name}}
+                </span>
+            </ul> 
+            </td> 
+        <td ><img [src]="row['flag']" alt="countrImage"></td>
+
+    </tr>
+    
+</table>
