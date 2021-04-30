@@ -15,7 +15,9 @@ Run `npm install` and then `ng serve` for installing on a dev server. Navigate t
 
 * Much better content projection for the resuable component
 * Additional scope to re-factor state management
-* 
+* Additional scope for DDA(accessibility) we can impliment for disabled person
+* additional scope is there for responsive design for all device(mobile, tablet).
+*  
 ## CSS coding standards
  * Use soft-tabs with a two space indent.
  * Use double quotes.
