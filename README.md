@@ -15,7 +15,13 @@ Run `npm install` and then `ng serve` for installing on a dev server. Navigate t
 
 * Much better content projection for the resuable component
 * Additional scope to re-factor state management
-
+* 
+## CSS coding standards
+ * Use soft-tabs with a two space indent.
+ * Use double quotes.
+ * Use shorthand notation where possible.
+ * Put spaces before { in rule declarations.
+ * Use hex color codes #000 unless using rgba().
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
