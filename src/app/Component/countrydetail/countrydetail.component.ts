@@ -5,8 +5,6 @@ import { IcountryList } from '../../model/country';
 import { CountryListService } from '../../service/country-list.service';
 import { loadAsiaCountry, loadEuropeCountry } from '../../store/country.action';
 import { CountryState, CountryStateSuccess } from '../../store/country.reducer';
-//import * as fromStore from '../../Store'
-// import { IcountryList } from '../model/country';
 
 @Component({
   selector: 'app-countryList',
@@ -59,10 +57,7 @@ export class CountrydetailComponent implements OnInit {
 
     if(selectionChange==='0'){
       this.selectRegion= false; 
-     // this.countryEuropeDataList=[];
-     // this.countryAsiaDataList=[];
-     // this.countryNameList=[];
-     // this.selectedRegion=undefined;
+    
     }else{
       this.selectedRegion=selectionChange;
       this.selectRegion= true;

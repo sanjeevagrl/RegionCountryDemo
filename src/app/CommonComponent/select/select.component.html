@@ -5,7 +5,7 @@
         <div class="select-box">
             <label for="country">{{displayLabel}} : </label>
             <select name="country" (change)="SelectItem($event.target)" class="select form-control" [disabled]="disabled" >
-            <option value="0">All</option>
+            <option value="0">--Select--</option>
             <option *ngFor="let item of options" value="{{item}}">
                 {{item}}
             </option>
