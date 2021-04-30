@@ -13,8 +13,8 @@ Run `npm install` and then `ng serve` for installing on a dev server. Navigate t
 
 ## Additional features that could be implemented if time permits
 
-Much better content projection for the resuable component
-Additional scope to re-factor state management
+* Much better content projection for the resuable component
+* Additional scope to re-factor state management
 
 ## Code scaffolding
 
