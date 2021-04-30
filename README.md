@@ -22,6 +22,13 @@ Run `npm install` and then `ng serve` for installing on a dev server. Navigate t
  * Use shorthand notation where possible.
  * Put spaces before { in rule declarations.
  * Use hex color codes #000 unless using rgba().
+
+## coding guilde used
+ * Separate file names with dots
+ * Suffix a service class name with Service e.g(country-list.service).
+ * use dashed-case for naming the element selectors of components.
+ * create folders named for the feature area they represent.
+ 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
